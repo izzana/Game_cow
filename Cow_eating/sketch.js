@@ -14,7 +14,7 @@ var fruit, rope, rope2, rope3;
 var fruit_con, fruit_con_2, fruit_con_3;
 var bg_img, fruit_img, cow_img;
 var cow;
-var button;
+var button, button2, button3;
 //variáveis de animações
 var blink, eat, sad;
 var isMobile;
@@ -131,21 +131,18 @@ function draw() {
 }
 
 function drop() {
-  cut_sound.play();//som ao cortar a fruta
   rope.break();//para "cortar" a corda//soltá-la do topo
   fruit_con.detach();//removeremos a restrição da fruta 
   fruit_con = null; //Para não afetar a fruta
 }
 
 function drop2() {
-  cut_sound.play();
   rope2.break();
   fruit_con_2.detach();
   fruit_con_2 = null;
 }
 
 function drop3() {
-  cut_sound.play();
   rope3.break();
   fruit_con_3.detach();
   fruit_con_3 = null;
