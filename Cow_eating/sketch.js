@@ -158,7 +158,7 @@ function collide(body, sprite) {
       fruit = null;//para a fruta sumir quando o coelho "comer" ela
       return true; 
     } else {
-      return false;//a fruta ficará na tella
+      return false;//a fruta ficará na tela
     }
   }
 }
